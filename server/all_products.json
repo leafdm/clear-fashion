@@ -217,18 +217,18 @@
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_moss_1_fd059d81-13c2-49e7-9752-b875256085b3.jpg"
   },
   {
-    "name": "T-shirt de Sport Get Ready Quick Dry",
-    "price": 65,
-    "brand": "Circle Sport",
-    "link": "https://shop.circlesportswear.com//products/t-shirt-de-sport-get-ready-quick-dry",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_quick_dry_granite_grey_1.jpg"
-  },
-  {
     "name": "Chaussettes de running Speedy Low",
     "price": 19,
     "brand": "Circle Sport",
     "link": "https://shop.circlesportswear.com//products/chaussettes-de-running-speedy-low",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_LO_navy_1_8a7a945c-9d4e-4c10-badb-edec4ae5f2b8.jpg"
+  },
+  {
+    "name": "T-shirt de Sport Get Ready Quick Dry",
+    "price": 65,
+    "brand": "Circle Sport",
+    "link": "https://shop.circlesportswear.com//products/t-shirt-de-sport-get-ready-quick-dry",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_quick_dry_granite_grey_1.jpg"
   },
   {
     "name": "Tapis de yoga recyclé",
@@ -280,18 +280,18 @@
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_feel_good_onyx_black_1.jpg"
   },
   {
-    "name": "Débardeur Get Comfy Quick Dry",
-    "price": 59,
-    "brand": "Circle Sport",
-    "link": "https://shop.circlesportswear.com//products/debardeur-get-comfy-quick-dry",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_get_comfy_quick_dry_granite_grey_1.jpg"
-  },
-  {
     "name": "Débardeur de sport Free Your Mind",
     "price": 59,
     "brand": "Circle Sport",
     "link": "https://shop.circlesportswear.com//products/debardeur-de-sport-free-your-mind",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_moss_1_8ef82d45-4065-4e98-85b6-491487e75948.jpg"
+  },
+  {
+    "name": "Débardeur Get Comfy Quick Dry",
+    "price": 59,
+    "brand": "Circle Sport",
+    "link": "https://shop.circlesportswear.com//products/debardeur-get-comfy-quick-dry",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_get_comfy_quick_dry_granite_grey_1.jpg"
   },
   {
     "name": "Haut à manches longues Homme Flow",
