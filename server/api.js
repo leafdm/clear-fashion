@@ -38,8 +38,8 @@ app.get('/', async(request, response) => {
 
 
 
-app.listen(PORT);
 
+app.listen(process.env.PORT||8092,()=>console.log('📡 Running on port ${process.env.PORT||8092}'));
 console.log(`📡 Running on port ${PORT}`);
 
 async function ID(id){
