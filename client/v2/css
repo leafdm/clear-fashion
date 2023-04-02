@@ -1,0 +1,118 @@
+const body = document.querySelector("body");
+
+body.style.fontFamily = "Arial, sans-serif";
+
+const h1 = document.querySelector("h1");
+
+h1.style.textAlign = "center";
+h1.style.color = "#008000";
+h1.style.fontSize = "3rem";
+
+const options = document.querySelector("#options");
+
+options.style.display = "flex";
+options.style.flexWrap = "wrap";
+options.style.justifyContent = "space-between";
+options.style.padding = "1rem";
+options.style.backgroundColor = "#f9f9f9";
+
+const select = document.querySelectorAll("select");
+
+select.forEach((item) => {
+  item.style.padding = "0.5rem";
+  item.style.fontSize = "1rem";
+  item.style.borderRadius = "0.2rem";
+  item.style.border = "1px solid #ccc";
+  item.style.marginRight = "0.5rem";
+});
+
+const checkbox = document.querySelectorAll("input[type='checkbox']");
+
+checkbox.forEach((item) => {
+  item.style.marginRight = "0.5rem";
+});
+
+const sortLabel = document.querySelector("#sort label");
+
+sortLabel.style.marginRight = "0.5rem";
+
+const indicators = document.querySelector("#indicators");
+
+indicators.style.backgroundColor = "#f9f9f9";
+indicators.style.padding = "1rem";
+indicators.style.marginTop = "2rem";
+
+const nbProducts = document.querySelector("#nbProducts");
+
+nbProducts.style.fontWeight = "bold";
+
+const nbBrands = document.querySelector("#nbBrands");
+
+nbBrands.style.fontWeight = "bold";
+
+const nbRecentProducts = document.querySelector("#nbRecentProducts");
+
+nbRecentProducts.style.fontWeight = "bold";
+
+const spanP50 = document.querySelector("#spanP50");
+
+spanP50.style.fontWeight = "bold";
+
+const spanP90 = document.querySelector("#spanP90");
+
+spanP90.style.fontWeight = "bold";
+
+const spanP95 = document.querySelector("#spanP95");
+
+spanP95.style.fontWeight = "bold";
+
+const spanLastReleased = document.querySelector("#spanLastReleased");
+
+spanLastReleased.style.fontWeight = "bold";
+
+const products = document.querySelector("#products");
+
+products.style.display = "grid";
+products.style.gridTemplateColumns = "repeat(auto-fit, minmax(250px, 1fr))";
+products.style.gridGap = "1rem";
+products.style.marginTop = "2rem";
+
+const product = document.querySelectorAll(".product");
+
+product.forEach((item) => {
+  item.style.backgroundColor = "#f9f9f9";
+  item.style.padding = "1rem";
+  item.style.borderRadius = "0.2rem";
+  item.style.boxShadow = "0px 2px 2px #ccc";
+});
+
+const productImage = document.querySelectorAll(".product img");
+
+productImage.forEach((item) => {
+  item.style.width = "100%";
+});
+
+const productTitle = document.querySelectorAll(".product h2");
+
+productTitle.forEach((item) => {
+  item.style.marginTop = "0";
+  item.style.marginBottom = "0.5rem";
+  item.style.fontSize = "1.2rem";
+});
+
+const productDescription = document.querySelectorAll(".product p");
+
+productDescription.forEach((item) => {
+  item.style.marginTop = "0";
+  item.style.marginBottom = "0.5rem";
+});
+
+const productPrice = document.querySelectorAll(".product span");
+
+productPrice.forEach((item) => {
+  item.style.fontSize = "1.1rem";
+  item.style.fontWeight = "bold";
+  item.style.color = "#008000";
+  item.style.marginTop = "0.5rem";
+  item.style.display = "block";
+});
